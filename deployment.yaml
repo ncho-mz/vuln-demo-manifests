@@ -16,10 +16,12 @@ spec:
     spec:
       containers:
       - name: dvwa
-        image: vulnerables/web-dvwa
+        #image: vulnerables/web-dvwa
+        image: nginx:1.14.0
         ports:
 
         - containerPort: 80
+
 
 
 
