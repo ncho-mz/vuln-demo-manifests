@@ -5,7 +5,7 @@ metadata:
   labels:
     app: dvwa
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app: dvwa
@@ -18,4 +18,5 @@ spec:
       - name: dvwa
         image: vulnerables/web-dvwa
         ports:
+
         - containerPort: 80
