@@ -16,11 +16,12 @@ spec:
     spec:
       containers:
       - name: dvwa
-        #image: vulnerables/web-dvwa
-        image: tomcat:9.0.30
+        image: vulnerables/web-dvwa
+        #image: tomcat:9.0.30
         ports:
 
         - containerPort: 80
+
 
 
 
