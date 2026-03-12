@@ -17,10 +17,11 @@ spec:
       containers:
       - name: dvwa
         #image: vulnerables/web-dvwa
-        image: tomcat:9.0
+        image: eystsen/vulnerablewordpress
         ports:
 
         - containerPort: 80
+
 
 
 
