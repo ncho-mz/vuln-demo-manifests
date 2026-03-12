@@ -17,10 +17,11 @@ spec:
       containers:
       - name: dvwa
         #image: vulnerables/web-dvwa
-        image: eystsen/vulnerablewordpress
+        image: hmlio/vaas-cve-2014-6271
         ports:
 
         - containerPort: 80
+
 
 
 
